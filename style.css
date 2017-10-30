@@ -1,0 +1,23 @@
+body {
+ background-color: #ffffcc
+}
+
+p{
+  font-family: sans-Serif;
+}
+
+ul{
+  font-size:40px;
+}
+
+a:hover {
+  color:#00e1ff;
+}
+
+input[type="radio"]{
+  border: 5px solid black;
+  padding: 75px;
+  float:right;
+  margin-right:600px;
+  margin-bottom:150px;
+}

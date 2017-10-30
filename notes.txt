@@ -1,0 +1,96 @@
+Project folder is the root directory
+!DOCTYPE - specifies which version of HTML is being used
+HTML - ELEMENT
+  Dentotes start of HTML document
+  Contains the whole HTML document
+Head - Element
+  Contains metadata:  data not displayed
+  Links to other files
+  Title
+Body - Element
+  Content displayed in the browser
+
+  Basic Structure:
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title></title>
+    </head>
+
+    <body>
+    </body>
+  </html>
+
+  Structure Elements
+  <div> </div>
+    use to create a generic container for content
+    <section> </section>
+    Provides structure around a block of content, grouping in a logical format
+    <header> </header>
+    new to HTML5, used to mark the header part of the body, 1 per document
+    <nav> </nav>
+    Used to markup navigation area
+    <footer> </footer>
+    counterpart to the header, outlines the footer content in the document
+
+    Semantic Elements
+
+    <h1></h1>  All the way to <h6></h6>
+    Italicized <em> vs <i>  em is treated as important
+    bold <strong>
+    Ordered list <ol><li></li>
+    Unordered list <ul><li></li>
+
+    CSS SYNTAX
+
+    selecto{
+
+    property: value;
+    Property2: value2:
+    }
+
+Color
+background-color
+font-family
+font-weight
+border-style
+
+Basic CSS
+body{
+  background-color:black;
+  color: white;
+  font-family: "Sans-serif";
+}
+
+h1{
+  color:yellow;
+}
+
+table{
+  border-style:dashed;
+}
+
+h2{
+  color:green;
+}
+
+CSS Selectors
+
+Classes
+  Uses.syntax
+  Reusable
+
+IDs
+  Uses # syntax
+  Must be unique
+
+  DISPLAY Property
+
+  display:block;
+    this makes the element a block and won't let anything sit next to it on a page
+
+  display:inline;
+    this makes the element sit on the same line as another line as the same line but without formatting it like a block
+
+  display:none;
+    this makes everything disappear
